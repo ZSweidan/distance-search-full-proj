@@ -1,0 +1,13 @@
+version: '2'
+services:
+  my-tsx-app3:
+    build: ./my-tsx-app3
+    ports:
+      - '3000:3000'
+    depends_on:
+      - nodeapp
+  nodeapp:
+    build: ./nodeapp
+    ports:
+      - '9000:9000'
+  
