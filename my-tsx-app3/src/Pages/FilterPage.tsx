@@ -8,8 +8,6 @@ import Box from "@material-ui/core/Box";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core/Paper";
-import Container from "@material-ui/core/Container";
-import List from "@material-ui/core/List";
 import CompanyCard from "../Components/CompanyCard";
 import axios from "axios";
 
