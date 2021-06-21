@@ -6,7 +6,7 @@ const getCompanyInRange = (value) => {
     const result = [];
     try {
      
-     fs.readFileSync("../../partners.json", "utf8", (err, d) => {
+     fs.readFileSync("../partners.json", "utf8", (err, d) => {
       const data = d;
       // console.log(err);
       });
